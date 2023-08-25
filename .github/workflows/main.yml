@@ -44,8 +44,8 @@ jobs:
     - name: Deploy nodejs helm chart to EKS
       run: |
         helm upgrade -i nodeapp ./node-app-chart
-        - name: Install and configure kubectl
-        run: |
+    - name: Install and configure kubectl
+      run: |
         VERSION=$(curl --silent https://storage.googleapis.com/kubernetes-release/release/stable.txt)
         curl https://storage.googleapis.com/kubernetes-release/release/$VERSION/bin/linux/amd64/kubectl \
             --progress-bar \
