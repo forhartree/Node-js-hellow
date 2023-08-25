@@ -40,3 +40,7 @@ jobs:
 
     - name: Update kube config
       run: aws eks update-kubeconfig --name Hartree-cluster
+      
+    - name: Deploy nodejs helm chart to EKS
+      run: |
+        helm install nodeapp ./node-app   
