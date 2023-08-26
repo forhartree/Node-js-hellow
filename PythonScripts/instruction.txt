@@ -1,0 +1,23 @@
+Automated Data Analysis Script Instructions
+
+This script automates the process of data analysis for a given dataset.
+
+Requirements:
+- Python 3.x
+- Required Python packages: pandas, matplotlib, seaborn, scipy
+
+Usage:
+1. Place the dataset CSV file in the same directory as the script.
+2. Open a terminal.
+3. Navigate to the directory containing the script and dataset.
+4. Run the script using the command:
+
+Instructions:
+- Rate your interest in different art styles on a scale of 1 to 5.
+- The script will generate personalized art style recommendations based on your preferences.
+- You'll receive a list of recommended art styles along with their descriptions.
+- The top recommended art style will be highlighted.
+
+Note:
+- This script uses a simplified recommendation algorithm for demonstration purposes.
+- Feel free to add more art styles and descriptions to the 'art_styles' dictionary.
